@@ -6,3 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: "Franchise";
+  src: local("Franchise"),
+   url("./fonts/franchise/Franchise.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "FranchiseFilled";
+    src: local("FranchiseFilled"),
+     url("./fonts/franchise/FranchiseFilled.ttf") format("truetype");
+    font-weight: bold;
+    }
