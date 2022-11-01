@@ -1,11 +1,11 @@
 import './App.css';
-import Dashboard from './components/Dashboard';
+import { Router } from './components/Router';
 
 
 function App() {
   return (
     <div className='App'>
-       <Dashboard/>
+      <Router />
     </div>
   );
 }
