@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header } from '../Header'
+import "./table.scss"
 
 export const Table = (props) => {
     const { gameMode } = props
@@ -8,7 +9,17 @@ export const Table = (props) => {
     return (
         <>
             <Header setRoute={setRoute} />
-            <div>Table {gameMode}</div>
+            <div className='container'>
+                {
+                    gameMode == "P2P" ?
+                        <>
+                            <div className='table_tittle' >Player VS Player</div>
+                        </> :
+                        <>
+                            <div className='table_tittle' >Player VS Computer</div>
+                        </>
+                }
+            </div>
         </>
     )
 }

@@ -7,7 +7,9 @@ export const Credits = (props) => {
     return (
         <>
             <Header setRoute={setRoute} />
-            <div>Credits</div>
+            <div className='container'>
+                <div className='table_tittle' >Credits</div>
+            </div>
         </>
     )
 }

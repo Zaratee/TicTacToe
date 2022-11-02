@@ -1,0 +1,12 @@
+.header_back {
+    font-size: 3rem;
+    padding: 10px;
+    color: #420000;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.header_back:active {
+    transform: translateY(5px);
+    color: #42000036;
+}

@@ -1,13 +1,13 @@
 .dashboard_container {
     text-align: center;
-    flex-flow: column nowrap ;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
     display: flex;
     align-content: center;
     height: 100%;
 }
 
-.dashboard_btn{
+.dashboard_btn {
     align-self: center;
     color: #420000;
     cursor: pointer;
@@ -17,12 +17,10 @@
     text-shadow: 1px 2px 8px #9b3367;
     font-family: Franchise;
     font-size: 8rem;
-    /* background-color: #B25068; */
-    /* box-shadow: 1px 3px 4px 1px rgb(0 0 0 / 42%); */
 
 }
 
-.dashboard_btn:hover{
+.dashboard_btn:hover {
     transition: all ease .2s;
     font-family: FranchiseFilled;
     color: #42000081;
@@ -31,7 +29,7 @@
 
 }
 
-.dashboard_btn:active{
+.dashboard_btn:active {
     transform: translateY(5px);
     color: #42000036;
-  }
+}

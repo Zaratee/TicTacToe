@@ -1,0 +1,20 @@
+.table_tittle {
+    align-self: center;
+    color: #420000;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 10px;
+    text-shadow: 1px 2px 8px #9b3367;
+    font-family: Franchise;
+    font-size: 8rem;
+}
+
+.table_tittle:hover {
+    transition: all ease .2s;
+    font-family: FranchiseFilled;
+    color: #42000081;
+}
+
+.container {
+    text-align: center;
+}

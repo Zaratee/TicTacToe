@@ -7,7 +7,9 @@ export const Configuration = (props) => {
     return (
         <>
             <Header setRoute={setRoute} />
-            <div>Configuration</div>
+            <div className='container'>
+                <div className='table_tittle' >Configuration</div>
+            </div>
         </>
     )
 }
