@@ -1,4 +1,5 @@
 import React from 'react'
+import { Github } from '../Github'
 import { Header } from '../Header'
 
 export const Credits = (props) => {
@@ -9,6 +10,10 @@ export const Credits = (props) => {
             <Header setRoute={setRoute} />
             <div className='container'>
                 <div className='table_tittle' >Credits</div>
+                <div className='card_container'>
+                    <Github />
+                    {/* <Linkedin/> */}
+                </div>
             </div>
         </>
     )
